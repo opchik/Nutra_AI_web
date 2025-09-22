@@ -1,0 +1,87 @@
+.homepage {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.today-date {
+  margin-top: 0;
+}
+
+.upload-btn {
+  display: block;
+  margin: auto;
+  padding: 1.5rem 8rem;
+  background-color: #3d6f80;
+  color: white;
+  border: none;
+  text-align: center;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 2px solid #192c32;
+
+  h2 {
+    margin: 0;
+  }
+}
+.upload-btn:hover {
+  background: #488396;
+  box-shadow: 2px 2px 8px #6b8e99;
+  border: 2px solid #325c68;
+}
+
+.dish-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.dish-card-item {
+  flex: 1;
+  margin-right: 2rem;
+}
+
+.dish-card-calories {
+  padding-left: 2rem;
+  border-left: 2px solid #192c32;
+  flex: 1;
+
+  h4 {
+    margin: 0.5rem;
+  }
+}
+
+.dish-card img {
+  height: 100px;
+  width: 100px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 1px solid #192c32;
+  margin-right: 2rem;
+}
+
+.history {
+  margin-top: 2rem;
+}
+
+.dish-item {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 0.75rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #69bad1;
+}
+
+.dish-item img {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  border: 1px solid #192c32;
+}

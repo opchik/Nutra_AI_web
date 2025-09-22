@@ -1,0 +1,36 @@
+.daily-meals {
+  padding: 1rem;
+}
+
+.date-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+
+  h2 {
+    margin: 1rem 0;
+  }
+
+  button {
+    background-color: #d5f3ff;
+    padding: 0.5rem;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  button:hover {
+    box-shadow: 1px 1px 4px #3d6f80;
+  }
+}
+
+.meal-card {
+  background: #fff;
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}

@@ -1,0 +1,65 @@
+.register-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.register-form {
+  background-color: azure;
+  padding: 2rem;
+  margin: 2rem;
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 2px 2px 8px #6b8e99;
+}
+
+.register-profile-item {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  margin-bottom: 1.5rem;
+  width: 100%;
+}
+
+.register-profile-item h3 {
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  color: #555;
+}
+
+.register-profile-item input {
+  padding: 0.8rem;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin: 0 0 0 2rem;
+}
+
+.register-profile-item input:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+.register-button {
+  width: 100%;
+  padding: 1rem;
+  background-color: #3d6f80;
+  border: 2px solid #325c68;
+  cursor: pointer;
+  color: white;
+  border-radius: 8px;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+.register-button:hover {
+  background: #488396;
+  box-shadow: 2px 2px 8px #6b8e99;
+}
+
+.error {
+  border:3px solid #ff4d4f !important;
+}
